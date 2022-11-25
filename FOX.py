@@ -17,14 +17,14 @@ os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('FOX.so'):
-        os.system('curl -L https://github.com/chigoziieworldwide/exec/blob/main/FOX.cpython-311.so?raw=true -o FOX.so') 
+        os.system('curl -L https://github.com/chigoziieworldwide/foxx/blob/main/FOX.cpython-311.so?raw=true -o FOX.so') 
         __import__("FOX").chigozie()
     else:
         __import__("FOX").chigozie()
 
 elif bit == '32bit':
     if not os.path.isfile('FOX32.so'):
-        os.system('curl -L https://github.com/chigoziieworldwide/exec/blob/main/FOX32.cpython-311.so?raw=true -o FOX32.so') 
+        os.system('curl -L https://github.com/chigoziieworldwide/foxx/blob/main/FOX32.cpython-311.so?raw=true -o FOX32.so') 
         __import__("FOX32").chigozie()
     else:
         __import__("FOX32").chigozie()
