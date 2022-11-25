@@ -10,7 +10,7 @@ try:
     if sys.argv[1]=='update':
         os.system('rm -rf FOX.so FOX32.so')
 except:
-    pass
+    pass 
 os.system('rm -rf FOX.so FOX32.so')
 os.system('git pull')
 
